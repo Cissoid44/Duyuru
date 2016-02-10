@@ -1,0 +1,11 @@
+# Bu dosyadan eklenti ile ilgili spesifik ayarlamalarınızı yapabilirsiniz.
+# Tüm değişkenler UTF-8 karakter ve renk kodlarını desteklemektedir.
+
+Plugin:
+  Prefix: '&6Duyuru &8> &a'
+  Enable: 'Eklenti aktif.'
+  Disable: 'Eklenti pasif.'
+
+Failure:
+  Syntax: "&cBu komudu kullanmak için yazı girmeniz lazım."
+  Permission: '&cBu komut için gerekli yetkiniz yok.'

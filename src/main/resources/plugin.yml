@@ -1,0 +1,22 @@
+name: Duyuru
+version: 1.0
+description: Bu eklenti ile sunucunuzda duyuru yapabilirsiniz.
+
+author: Cissoid
+
+main: net.cissoid.duyuru.Duyuru
+database: false
+
+commands:
+  duyuru:
+    description: Bu komut duyuru yapmanizi saglar.
+    aliases: [broadcast]
+
+permissions:
+  duyuru.*:
+    description: Duyuru eklentisinin tum yetkilerini verir.
+    children:
+      duyuru.broadcast: true
+  duyuru.broadcast:
+    description: Bu yetki duyuru yapmak icin gereklidir.
+    default: op
